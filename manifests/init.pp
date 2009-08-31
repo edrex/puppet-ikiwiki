@@ -1,4 +1,4 @@
-# ensure ikiwiki is installed on the system
+class ikiwiki {
     package { ikiwiki: ensure => installed }
 
     # idea: either initiate a new public wiki
